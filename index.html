@@ -1,0 +1,52 @@
+    
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/head1.ico">
+    <title>Dices game</title>
+    </head>
+
+    <body>
+    <div class="app">
+        <header class="centered-items container-image">
+        <img src="./img/banner3.jpg" />
+        </header>
+
+        <main class="centered-items container-interaction">
+        <div class="container-text">
+            <h1>Manejo del DOM con javascript</h1>
+            <h3>Bienvenido al juego de dados</h3>
+        </div>
+
+        <div class="container-form">
+            <form>
+            <div class="centered-items form-control">
+                <label>Disponible para apostar</label>
+                <input id="available-to-bet" class="inputs" type="number" placeholder="Disponible">
+            </div>
+            <div id="want-container" class="centered-items form-control hide">
+                <label>¿Cuanto quieres apostar?</label>
+                <input id="want-to-bet" class="inputs" type="number" placeholder="Apuesta">
+            </div>
+
+            <button type="button" id="btn-play">Jugar ahora</button>
+            <button type="button" id="btn-fired">Retirarse</button>
+            <button class="hide" type="button" id="btn-play-game">Lanzar dados</button>
+            </form>
+        </div>
+
+        <div id="dices-container" class="centered-items container-dices"></div>
+
+        <div id="results" class="container-results"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+
+    </html>

@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body .app {
+  background-color: rgb(157, 210, 219);
+  font-family: 'Roboto-Bold';
+  height: 100vh;
+  width: 100vw;
+  transition: all ease 0.2s;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body .app .container-image {
+  height: 40%;
+}
+
+body .app .container-image img {
+  border-radius: 10px;
+  height: 90%;
+  object-fit: cover;
+  width: 90%;
+}
+
+body .app .container-interaction {
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+.container-dices {
+  height: 25%;
+  width: 90%;
+}
+
+.container-dices img {
+  width: 40px;
+}
+
+.centered-items {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container-image, .container-interaction, footer {
+  width: 100%;
+}
+
+.container-interaction h1 {
+  color: rgb(104, 38, 38);
+  font-size: 700;
+  font-size: 2.2em;
+  margin: 0;
+}
+
+.container-interaction h3 {
+  color: rgb(13, 112, 179);
+  font-size: 400;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.container-interaction .container-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-interaction form button {
+  background-color: rgb(197, 179, 12);
+  border: none;
+  border-radius: 8rem;
+  cursor: pointer;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 30px;
+  width: 20%;
+}
+
+.container-text {
+  height: 20%;
+}
+
+.container-text, .container-form {
+  width: 90%;
+}
+
+.container-results {
+  font-weight: 700;
+  font-size: 1.3rem;
+  height: 10%;
+  margin-bottom: 2rem;
+}
+
+.container-results p span {
+  font-weight: initial;
+}
+
+.form-control {
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.inputs{
+    font-size: 1rem;
+    padding: .5rem;
+    display: block;
+    width: 15%;
+    background-color: #e1e1e1;
+    margin: 0;
+    border: none;
+    border-radius: 1rem;
+}
+
+.hide {
+  display: none;
+}

@@ -4,7 +4,7 @@
 }
 
 body .app {
-  background-color: rgb(157, 210, 219);
+  background-color: #fdfdfd;
   font-family: 'Roboto-Bold';
   height: 100vh;
   width: 100vw;
@@ -13,7 +13,7 @@ body .app {
 }
 
 body .app .container-image {
-  height: 40%;
+  height: 30%;
 }
 
 body .app .container-image img {
@@ -56,17 +56,11 @@ input[type=number] { -moz-appearance:textfield; }
   width: 100%;
 }
 
-.container-interaction h1 {
-  color: rgb(104, 38, 38);
-  font-size: 700;
-  font-size: 2.2em;
-  margin: 0;
-}
 
-.container-interaction h3 {
-  color: rgb(13, 112, 179);
+.container-interaction h2 {
+  color: #0f7fca;
   font-size: 400;
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 0;
 }
 
@@ -76,23 +70,18 @@ input[type=number] { -moz-appearance:textfield; }
 }
 
 .container-interaction form button {
-  background-color: rgb(197, 179, 12);
+  background-color: #178dd1;
   border: none;
-  border-radius: 8rem;
+  border-radius: 12px;
   cursor: pointer;
   color: white;
   font-size: 1.2rem;
   font-weight: 700;
-  height: 30px;
-  width: 20%;
-}
-
-.container-text {
-  height: 20%;
+  padding: 0.78rem;
 }
 
 .container-text, .container-form {
-  width: 90%;
+  width: 100%;
 }
 
 .container-results {
@@ -113,15 +102,18 @@ input[type=number] { -moz-appearance:textfield; }
 
 .inputs{
     font-size: 1rem;
-    padding: .5rem;
+    padding: .7rem;
     display: block;
-    width: 15%;
+    width: 20%;
     background-color: #e1e1e1;
-    margin: 0;
+    margin: .5rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: .8rem;
 }
 
 .hide {
   display: none;
+}
+div > label {
+  margin-bottom: .5em;
 }
